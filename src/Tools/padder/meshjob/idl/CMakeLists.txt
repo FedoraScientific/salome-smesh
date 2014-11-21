@@ -34,7 +34,7 @@ SET(SalomeIDLSPADDER_IDLSOURCES
 )
 
 SET(_idl_include_dirs
-  ${KERNEL_ROOT_DIR}/idl/salome
+  ${KERNEL_ROOT_DIR}/${SALOME_INSTALL_IDLS}
 )
 
 SET(_idl_link_flags

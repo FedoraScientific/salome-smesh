@@ -34,4 +34,4 @@ SET(plugin_HTML_FILES
 
 # --- rules ---
 
-SALOME_INSTALL_SCRIPTS("${plugin_HTML_FILES}" ${SALOME_SMESH_INSTALL_PLUGINS}/Verima/CreeDocuments/templatesHtml)
+INSTALL(FILES ${plugin_HTML_FILES} DESTINATION ${SALOME_SMESH_INSTALL_PLUGINS}/Verima/CreeDocuments/templatesHtml)
